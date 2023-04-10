@@ -1,21 +1,11 @@
-import logo from './linkedin.jpg';
-import './App.css';
+import React, { useEffect } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <a
-          className="App-link"
-          href="https://github.com/0nkar"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src={logo} className="App-logo" alt="logo" />
-        </a>
-      </header>
-    </div>
-  );
-}
+const Redirect = () => {
+  useEffect(() => {
+    window.location.href = 'https://www.linkedin.com/in/yellurkar';
+  }, []);
 
-export default App;
+  return <div>Redirecting to LinkedIn...</div>;
+};
+
+export default Redirect;
