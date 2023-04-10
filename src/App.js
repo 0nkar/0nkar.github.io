@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 
 const Redirect = () => {
   useEffect(() => {
-    window.location.href = 'https://www.linkedin.com/in/yellurkar';
+    window.location.href = 'https://yellurkar.bio.link';
   }, []);
 
-  return <div>Redirecting to LinkedIn...</div>;
+  return <div></div>;
 };
 
 export default Redirect;
