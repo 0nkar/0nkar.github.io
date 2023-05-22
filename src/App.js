@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-const Redirect = () => {
-  useEffect(() => {
-    window.location.href = 'https://yellurkar.bio.link';
-  }, []);
+function App() {
+  return (
+    <div>
+      <h1>I/O in progress</h1>
+    </div>
+  );
+}
 
-  return <div></div>;
-};
-
-export default Redirect;
+export default App;
